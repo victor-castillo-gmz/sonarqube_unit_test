@@ -3,7 +3,7 @@
 
 TEST(SubTest, HandlesPositiveInput)
 {
-int resta = sub(1, 5);
+int resta = sub(5, 1);
 
 EXPECT_EQ(resta, 4);
 }
