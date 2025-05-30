@@ -6,6 +6,7 @@
 cmake-build-debug
 
 # Compiled Object files
+# Compiled Object file
 *.slo
 *.lo
 *.o
@@ -16,6 +17,7 @@ cmake-build-debug
 *.pch
 
 # Compiled Dynamic libraries
+# Compiled Dynamic librarie
 *.so
 *.dylib
 *.dll
