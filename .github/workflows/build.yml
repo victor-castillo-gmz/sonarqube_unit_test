@@ -60,7 +60,6 @@ jobs:
     needs: tests  # Dependencia explícita: este job se ejecuta después de 'tests'
 
     steps:
-      # 1. Clonar el repositorio (con historial necesario para SonarQube)
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
